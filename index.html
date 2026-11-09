@@ -1,168 +1,447 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlowingSkin</title>
-  <link rel="stylesheet" href="./style/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GlowingSkin | Beauty and Skincare</title>
+
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 
 <body>
-  <div class="container">
-    <div class="logo">
-      <img src="./products_images/file_00000000d1008243967071a08b3d87dc.png" height="100">
-    </div>
-    <nav class="navbar">
+
+    <!-- HEADER: Brand identity and primary navigation -->
+    <header class="site-header" id="home">
+
+        <a href="#home" class="logo" aria-label="GlowingSkin home">
+            <img
+                src="./products_images/file_00000000d1008243967071a08b3d87dc.png"
+                alt="GlowingSkin logo">
+        </a>
+
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home">HOME</a>
+            <a href="#best-sellers">SHOP</a>
+            <a href="#categories">COLLECTIONS</a>
+            <a href="#about">ABOUT US</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+    </header>
 
 
-      <a href="#">HOME</a>
-      <a href="#">SHOP</a>
-      <a href="#">COLLECTIONS</a>
-      <a href="#">ABOUT US</a>
-      <a href="#">BLOG</a>
-      <a href="#">Contact</a>
-  </div>
-  </nav>
+    <!-- MAIN: Primary content of the webpage -->
+    <main>
 
-  </div>
-  <div class="hero_image">
-    <img src="./products_images/file_000000002ea4824396047f3d55de75da.png">
-  </div>
-  <h3>SHOP BY CATEGORY</h3>
-  <div class="image_gallery">
-    <div>
-      <img src="./products_images/802b51fe-e88f-4ef0-b157-abdfc0728631.jpeg">
-      <h3>SKIN CARE</h3>
-    </div>
-    <div>
-      <img src="./products_images/e58831da-3fad-4d69-bef8-5ae0d93ecc84.jpeg">
-      <h3>BODY CARE</h3>
-    </div>
-    <div>
-      <img src="./products_images/98eb966b-ba92-4031-a83c-02bb0f9993c9.jpeg">
-      <h3>HAIR CARE</h3>
-    </div>
-    <div>
-      <img src="./products_images/e5cffaf1-b1cf-456d-ade4-8e9eb517bf70.jpeg">
-      <h3>SUN CARE</h3>
-    </div>
-    <div>
-      <img src="./products_images/333a837c-8e2e-42fa-877c-14a6e7fb39fd.jpeg">
-      <h3>MAKE UP</h3>
-    </div>
-    <div>
-      <img src="./products_images/fd314d87-bec1-47c0-a047-666c70cdd2ef.jpeg">
-      <h3> GIFT SETS</h3>
-    </div>
+        <!-- HERO SECTION -->
+        <section class="hero-image" aria-label="Featured promotion">
 
-  </div>
-  <div class="section_image">
-    <div class="card">
-      <p>LIMITED TIME OFFER</p>
-      <p style="font-size: 45px;">Up to 30% Off</p>
-      <p style="font-size: 45px;">On Best Sellers</p>
-      <p>Glow more, Spend Less.</p>
-      <p>Treat Your Skin Today!</p>
-      <br>
-      <button id="btn">SHOP THE SALE</button>
-    </div>
-    <div class="image_section">
-      <img src="./products_images/3af392d8-2467-4424-9963-2c932a4ba64b.jpeg">
-    </div>
-  </div>
-  <h4>BEST SELLERS</h4>
-  <div class="cards">
-    <div class="card_image">
-      <img src="./products_images/802b51fe-e88f-4ef0-b157-abdfc0728631.jpeg">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo dolore rem eos incidunt,</p>
-      <p>N5000</p>
-      <button class="btn">Add to Cart</button>
-    </div>
-    <div class="card_image">
-      <img src="./products_images/e58831da-3fad-4d69-bef8-5ae0d93ecc84.jpeg">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta optio aperiam, reiciendis</p>
-      <p>N8000</p>
-      <button class="btn">Add to Cart</button>
-    </div>
-    <div class="card_image">
-      <img src="./products_images/fd314d87-bec1-47c0-a047-666c70cdd2ef.jpeg">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quibusdam sequi eaque ipsa</p>
-      <p>N3000</p>
-      <button class="btn">Add to Cart</button>
-    </div>
-    <div class="card_image">
-      <img src="./products_images/802b51fe-e88f-4ef0-b157-abdfc0728631.jpeg" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident optio tenetur</p>
-      <p>N7000</p>
-      <button class="btn">Add to Cart</button>
-    </div>
-  </div>
-  <br><br><br><br>
-  <div class="service_section">
-    <div class="icon"></div>
-    <div class="item">
-      <!--<img src="./products_images/van.svg" alt="">-->
-      <p>FREE SHIPPING</p>
-      <p>On Orders Over 999</p>
-    </div>
-    <div class="item">
-      <!--<img src="./products_images/calendar-days.svg" alt="">-->
+            <img
+                src="./products_images/file_000000002ea4824396047f3d55de75da.png"
+                alt="GlowingSkin featured beauty promotion">
 
-      <p>EASY RETURNS</p>
-      <p>15 days return policy</p>
-    </div>
-    <div class="item">
-      <!--  <img src="./products_images/circle-dollar-sign.svg" alt="">-->
-      <p>SECURE PAYMENT</p>
-      <p>100% secure checkout</p>
-    </div>
-    <div class="item">
-      <!--<img src="./products_images/hand-fist.svg" alt="">-->
-      <p>24/7 SUPPORT</p>
-      <P>We'er here to help</P>
-    </div>
-  </div>
+        </section>
 
-  <div class="footer">
-    <div class="footer_item">
-      <img src="./products_images/file_00000000d1008243967071a08b3d87dc.png" alt="">
-      <div>
-      <a href="#">  <img src="./products_images/facebook.svg" alt="" style="height: 50px;"> </a>
-       <a href="#"> <img src="./products_images/instagram.svg" alt="" style="height: 50px;"> </a>
-       <a href="#"> <img src="./products_images/youtube.svg" alt="" style="height: 50px;"> </a>
-    </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur deleniti optio ut illo sed ullam</p>
-      <p>C2025 All Right Reserve</p>
-    </div>
-    <div class="footer_item">
-      <ul>
-        <li>QUICK LINKS</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Collections</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact Us</a></li>
-        
-      </ul>
-    </div>
-    <div class="footer_item">
-      <p>CUSTOMER CARE</p>
-      <p>Track You Order</p>
-      <p>Shipping Policy</p>
-      <p>Returns & Refunds</p>
-      <p>Terms & Conditions</p>
-      <p>Privacy Policy</p>
-      <p>FAQs</p>
-    </div>
-    <div class="footer_item">
-      <p>NEWSLETTER</p>
-      <p> Subscribe to get special offers,</p>
-      <p> beauty tips and more</p>
-      <button>Submit</button>
-    </div>
-  </div>
+
+        <!-- CATEGORIES SECTION -->
+        <section class="categories" id="categories">
+
+            <h1 class="section-title">SHOP BY CATEGORY</h1>
+
+            <div class="image-gallery">
+
+                <article class="category-item">
+                    <img
+                        src="./products_images/802b51fe-e88f-4ef0-b157-abdfc0728631.jpeg"
+                        alt="Skincare products"
+                        loading="lazy">
+
+                    <h2>SKIN CARE</h2>
+                </article>
+
+
+                <article class="category-item">
+                    <img
+                        src="./products_images/e58831da-3fad-4d69-bef8-5ae0d93ecc84.jpeg"
+                        alt="Body care products"
+                        loading="lazy">
+
+                    <h2>BODY CARE</h2>
+                </article>
+
+
+                <article class="category-item">
+                    <img
+                        src="./products_images/98eb966b-ba92-4031-a83c-02bb0f9993c9.jpeg"
+                        alt="Hair care products"
+                        loading="lazy">
+
+                    <h2>HAIR CARE</h2>
+                </article>
+
+
+                <article class="category-item">
+                    <img
+                        src="./products_images/e5cffaf1-b1cf-456d-ade4-8e9eb517bf70.jpeg"
+                        alt="Sun care products"
+                        loading="lazy">
+
+                    <h2>SUN CARE</h2>
+                </article>
+
+
+                <article class="category-item">
+                    <img
+                        src="./products_images/333a837c-8e2e-42fa-877c-14a6e7fb39fd.jpeg"
+                        alt="Makeup products"
+                        loading="lazy">
+
+                    <h2>MAKEUP</h2>
+                </article>
+
+
+                <article class="category-item">
+                    <img
+                        src="./products_images/fd314d87-bec1-47c0-a047-666c70cdd2ef.jpeg"
+                        alt="Beauty gift sets"
+                        loading="lazy">
+
+                    <h2>GIFT SETS</h2>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROMOTIONAL SECTION -->
+        <section class="section-image" id="about">
+
+            <div class="offer-card">
+
+                <p class="offer-label">LIMITED TIME OFFER</p>
+
+                <h2 class="offer-title">
+                    Up to 30% Off
+                    <span>On Best Sellers</span>
+                </h2>
+
+                <p>Glow more, Spend Less.</p>
+
+                <p>Treat Your Skin Today!</p>
+
+                <a href="#best-sellers" class="shop-sale-button">
+                    SHOP THE SALE
+                </a>
+
+            </div>
+
+
+            <div class="offer-image">
+
+                <img
+                    src="./products_images/3af392d8-2467-4424-9963-2c932a4ba64b.jpeg"
+                    alt="Featured beauty products"
+                    loading="lazy">
+
+            </div>
+
+        </section>
+
+
+        <!-- BEST SELLERS SECTION -->
+        <section class="best-sellers" id="best-sellers">
+
+            <h2 class="section-title">BEST SELLERS</h2>
+
+            <div class="cards">
+
+                <article class="product-card">
+
+                    <img
+                        src="./products_images/802b51fe-e88f-4ef0-b157-abdfc0728631.jpeg"
+                        alt="Daily skincare product"
+                        loading="lazy">
+
+                    <h3>Daily Glow Face Cream</h3>
+
+                    <p>
+                        A skincare essential for your everyday beauty routine.
+                    </p>
+
+                    <p class="product-price">₦5,000</p>
+
+                    <button type="button" class="btn">
+                        Add to Cart
+                    </button>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <img
+                        src="./products_images/e58831da-3fad-4d69-bef8-5ae0d93ecc84.jpeg"
+                        alt="Body care product"
+                        loading="lazy">
+
+                    <h3>Body Care Collection</h3>
+
+                    <p>
+                        Give your body the attention and care it deserves.
+                    </p>
+
+                    <p class="product-price">₦8,000</p>
+
+                    <button type="button" class="btn">
+                        Add to Cart
+                    </button>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <img
+                        src="./products_images/fd314d87-bec1-47c0-a047-666c70cdd2ef.jpeg"
+                        alt="Beauty gift set"
+                        loading="lazy">
+
+                    <h3>Beauty Gift Set</h3>
+
+                    <p>
+                        A thoughtful collection for your beauty needs.
+                    </p>
+
+                    <p class="product-price">₦3,000</p>
+
+                    <button type="button" class="btn">
+                        Add to Cart
+                    </button>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <img
+                        src="./products_images/802b51fe-e88f-4ef0-b157-abdfc0728631.jpeg"
+                        alt="Featured skincare product"
+                        loading="lazy">
+
+                    <h3>Skin Essentials</h3>
+
+                    <p>
+                        Simple essentials to complement your daily routine.
+                    </p>
+
+                    <p class="product-price">₦7,000</p>
+
+                    <button type="button" class="btn">
+                        Add to Cart
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CUSTOMER SERVICE BENEFITS -->
+        <section class="service-section" aria-label="Shopping benefits">
+
+            <div class="service-item">
+
+                <img
+                    src="./products_images/van.svg"
+                    alt=""
+                    class="service-icon">
+
+                <h3>FREE SHIPPING</h3>
+
+                <p>On Orders Over ₦999</p>
+
+            </div>
+
+
+            <div class="service-item">
+
+                <img
+                    src="./products_images/calendar-days.svg"
+                    alt=""
+                    class="service-icon">
+
+                <h3>EASY RETURNS</h3>
+
+                <p>15 Days Return Policy</p>
+
+            </div>
+
+
+            <div class="service-item">
+
+                <img
+                    src="./products_images/circle-dollar-sign.svg"
+                    alt=""
+                    class="service-icon">
+
+                <h3>SECURE PAYMENT</h3>
+
+                <p>100% Secure Checkout</p>
+
+            </div>
+
+
+            <div class="service-item">
+
+                <img
+                    src="./products_images/hand-fist.svg"
+                    alt=""
+                    class="service-icon">
+
+                <h3>24/7 SUPPORT</h3>
+
+                <p>We're Here to Help</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer" id="contact">
+
+
+        <!-- BRAND INFORMATION -->
+        <div class="footer-item footer-brand">
+
+            <a href="#home" aria-label="GlowingSkin home">
+                <img
+                    src="./products_images/file_00000000d1008243967071a08b3d87dc.png"
+                    alt="GlowingSkin logo"
+                    class="footer-logo">
+            </a>
+
+
+            <nav class="social-links" aria-label="Social media">
+
+                <a href="#" aria-label="Facebook">
+                    <img src="./products_images/facebook.svg" alt="">
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <img src="./products_images/instagram.svg" alt="">
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <img src="./products_images/youtube.svg" alt="">
+                </a>
+
+            </nav>
+
+
+            <p>
+                Discover beauty essentials that complement your
+                everyday skincare routine.
+            </p>
+
+            <small>
+                &copy; 2026 GlowingSkin. All Rights Reserved.
+            </small>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+        <div class="footer-item">
+
+            <h2>QUICK LINKS</h2>
+
+            <nav aria-label="Footer navigation">
+
+                <ul class="footer-links">
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#best-sellers">Shop</a></li>
+
+                    <li><a href="#categories">Collections</a></li>
+
+                    <li><a href="#about">About Us</a></li>
+
+                    <li><a href="#blog">Blog</a></li>
+
+                    <li><a href="#contact">Contact Us</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+
+        <!-- CUSTOMER CARE -->
+        <div class="footer-item">
+
+            <h2>CUSTOMER CARE</h2>
+
+            <ul class="footer-links">
+
+                <li><a href="#">Track Your Order</a></li>
+
+                <li><a href="#">Shipping Policy</a></li>
+
+                <li><a href="#">Returns & Refunds</a></li>
+
+                <li><a href="#">Terms & Conditions</a></li>
+
+                <li><a href="#">Privacy Policy</a></li>
+
+                <li><a href="#">FAQs</a></li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- NEWSLETTER -->
+        <div class="footer-item">
+
+            <h2>NEWSLETTER</h2>
+
+            <p>
+                Subscribe to get special offers, beauty tips and more.
+            </p>
+
+            <form class="newsletter-form">
+
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+
+    </footer>
+
 </body>
 
 </html>
