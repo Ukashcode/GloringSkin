@@ -1,0 +1,159 @@
+html ,body {
+    background-color: white;
+   
+}
+
+.container {
+    display: flex;
+   align-items: center;
+  justify-content: space-around;
+  
+  
+    
+}
+.navbar {
+display: flex;
+gap: 60px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: x-large;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+* {
+    box-sizing: border-box;
+}
+ .hero_image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   
+
+ }
+ .hero_image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+ }
+ h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    height: 50px;
+ }
+ .image_gallery {
+    display: flex;
+   gap: 15px;
+   justify-content: space-around;
+    
+    
+ }
+ .image_gallery img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ }
+ .card {
+   border: 3px solid antiquewhite;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 24px;
+   padding: 80px;
+   width: 100%;
+   color: white;
+   background-color: rgb(240, 173, 240);
+ }
+ .section_image {
+    display: flex;
+    padding: 100px;
+    gap: 20px;
+    width: 100%;
+ }
+ .image_section {
+  width: 100%;
+  
+ }
+
+ .cards {
+    display: flex;
+    gap: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-wrap: wrap;
+ }
+ .cards img {
+    height: 200px;
+    
+    
+ }
+ 
+ 
+ h4 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.card_image  {
+ border: 1px solid antiquewhite;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-bottom: 10px;
+ padding-top: 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20;
+ 
+}
+
+.service_section {
+    display: flex;
+    background-color: rgb(240, 173, 240);
+    justify-content: space-around;
+}
+.footer {
+    display: flex;
+    background-color: rgb(73, 8, 73);
+   justify-content: space-around;
+   height: auto;
+   flex-wrap: wrap;
+  
+}
+
+.footer_item img {
+ width: 120px;
+  height: 120px;
+}
+.item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+.footer_item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: white;
+    
+}
+.footer_item  a{
+text-decoration: none;
+color: white;
+}
+.btn {
+    border: 1px solid aliceblue;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(240, 173, 240);
+}
+#btn {
+      border: 1px solid aliceblue;
+      padding: 30px;
+      width: 250px;
+      background-color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 18px;
+     
+}
+ul {
+    list-style-type: none;
+}
+
